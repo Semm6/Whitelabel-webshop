@@ -1,7 +1,7 @@
 import React from 'react'
-import APIService from '../ApiService/ProductAPIService'
+import APIService from '../ApiService/UserAPIService'
 
-export default class ProductComponent extends React.Component {
+export default class AllUsers extends React.Component {
 
     constructor(props) {
         super(props)
@@ -12,7 +12,7 @@ export default class ProductComponent extends React.Component {
     }
     
     componentDidMount(){
-        APIService.getProducts().then((data) => {
+        APIService.getUsers().then((data) => {
             this.setState({ user: data })
             console.log(this.state.data)
           })
@@ -24,12 +24,13 @@ export default class ProductComponent extends React.Component {
     render() {
         return (
             <div>
-                <h2 className="text-center">Product Details</h2>
+                <h2 className="text-center">User Details</h2>
                 <table className="table table-striped">
                     <thead>
                         <tr>
                             <th>Id</th>
                             <th>Name</th>
+                            <th>lastname</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -38,6 +39,7 @@ export default class ProductComponent extends React.Component {
                                     <tr key={user.id}>
                                         <td>{user.id}</td>
                                         <td>{user.name}</td>
+                                        <td>{user.lastname}</td>
                                     </tr>
                             )
                         }

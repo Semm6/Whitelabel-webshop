@@ -1,7 +1,8 @@
 import React from 'react'
-import APIService from '../ApiService/UserAPIService'
+import "../Style/shop.css";
+import APIService from '../ApiService/ProductAPIService'
 
-export default class UserComponent extends React.Component {
+export default class Shop extends React.Component {
 
     constructor(props) {
         super(props)
@@ -12,7 +13,7 @@ export default class UserComponent extends React.Component {
     }
     
     componentDidMount(){
-        APIService.getUsers().then((data) => {
+        APIService.getProducts().then((data) => {
             this.setState({ user: data })
             console.log(this.state.data)
           })
@@ -24,13 +25,12 @@ export default class UserComponent extends React.Component {
     render() {
         return (
             <div>
-                <h2 className="text-center">User Details</h2>
+                <h2 className="text-center">Shop</h2>
                 <table className="table table-striped">
                     <thead>
                         <tr>
                             <th>Id</th>
                             <th>Name</th>
-                            <th>lastname</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -39,7 +39,6 @@ export default class UserComponent extends React.Component {
                                     <tr key={user.id}>
                                         <td>{user.id}</td>
                                         <td>{user.name}</td>
-                                        <td>{user.lastname}</td>
                                     </tr>
                             )
                         }
