@@ -8,13 +8,13 @@ export default class Shop extends React.Component {
         super(props)
     
         this.state = {
-             user: []
+             product: []
         }
     }
     
     componentDidMount(){
         APIService.getProducts().then((data) => {
-            this.setState({ user: data })
+            this.setState({ product: data })
             console.log(this.state.data)
           })
           .catch(function (ex) {
@@ -35,10 +35,10 @@ export default class Shop extends React.Component {
                     </thead>
                     <tbody>
                         {
-                            this.state.user.map(user =>
-                                    <tr key={user.id}>
-                                        <td>{user.id}</td>
-                                        <td>{user.name}</td>
+                            this.state.product.map(product =>
+                                    <tr key={product.id}>
+                                        <td>{product.id}</td>
+                                        <td>{product.name}</td>
                                     </tr>
                             )
                         }

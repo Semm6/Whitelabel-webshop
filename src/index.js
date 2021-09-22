@@ -1,14 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import '../src/Style/index.css';
-import App from './Components/App';
+import App from './Pages/App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import reportWebVitals from './reportWebVitals';
+import { Auth0Provider } from '@auth0/auth0-react';
+
+
+const domain = process.env.REACT_APP_AUTH0_DOMAIN; //import domain from env file
+const clientId = process.env.REACT_APP_AUTH0_CLIENT_ID; //import clientid from env file
 
 ReactDOM.render(
-  <React.StrictMode>
+  <Auth0Provider //import auth0 provider for the whole application
+    domain={domain}
+    clientId={clientId}
+    redirectUri={window.location.origin}>
     <App />
-  </React.StrictMode>,
+  </Auth0Provider>,
   document.getElementById('root')
 );
 
