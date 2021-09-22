@@ -1,0 +1,29 @@
+ul {
+    border: 1px solid black;
+    padding: 0;
+    background: chartreuse;
+    width: 100%;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    padding: 10px;
+    display: block;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.login {
+    float: right;
+}
+
+.logo {
+    height: 25px;
+    width: 25px;
+}

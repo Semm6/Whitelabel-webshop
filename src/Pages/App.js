@@ -4,9 +4,8 @@ import Shop from "./Shop";
 import "../Style/home.css";
 import Navbar from '../Components/Navbar';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import LoginButton from "../Components/LoginButton";
-import LogoutButton from "../Components/LogoutButton";
 import { useAuth0 } from '@auth0/auth0-react';
+import Home from "./Home";
 
 
 function App() {
@@ -17,11 +16,10 @@ function App() {
   
     return (
       <Router>
-        <LoginButton/>
-        <LogoutButton/>
         <Navbar/>
           <Switch>
-              <Route exact path='/' component={Shop} />
+              <Route exact path='/' component={Home} />
+              <Route exact path='/Shop' component={Shop} />
               <Route exact path='/account' component={Account} />
           </Switch>
       </Router>
