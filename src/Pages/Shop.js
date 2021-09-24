@@ -25,25 +25,19 @@ export default class Shop extends React.Component {
     render() {
         return (
             <div>
-                <h2 className="text-center">Shop</h2>
-                <table className="table table-striped">
-                    <thead>
-                        <tr>
-                            <th>Id</th>
-                            <th>Name</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {
-                            this.state.product.map(product =>
-                                    <tr key={product.id}>
-                                        <td>{product.id}</td>
-                                        <td>{product.name}</td>
-                                    </tr>
-                            )
-                        }
-                    </tbody>
-                </table>
+                <h2 className="header">Shop</h2>
+                <div>{ 
+                        this.state.product.map(product =>
+                                    <div className="column">
+                                            <div className="card">
+                                            <div><img className="cardimg" src={product.image} /></div>
+                                            <h6>{product.name}</h6>
+                                            <p>€{product.price}</p>
+                                            <div><button className="button"><p>+</p></button></div>
+                                        </div>       
+                                    </div>
+                        )
+                        }</div>
             </div>
         )
     }

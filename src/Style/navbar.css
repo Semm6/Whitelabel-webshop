@@ -1,7 +1,7 @@
 ul {
     border: 1px solid black;
     padding: 0;
-    background: chartreuse;
+    background: darkgreen;
     width: 100%;
 }
 
@@ -16,7 +16,7 @@ a {
 
 .link {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .login {

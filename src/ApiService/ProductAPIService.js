@@ -1,4 +1,4 @@
-const PRODUCTS_REST_API = 'http://localhost:9090/api/products';
+const PRODUCTS_REST_API = 'http://localhost:8081/api/products';
 
 
 class ProductAPIService {   
