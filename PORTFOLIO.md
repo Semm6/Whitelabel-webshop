@@ -5,29 +5,15 @@ This project is created with React and springboot.
 
 ## Start of the project
 
-##### Requirements
+##### User stories
 
-###### 1. Functional requirements 
+ ---                        |                      --- 
+:-------------------------:|:-------------------------:
+![](https://i.postimg.cc/65qPKrJ3/user-story-1.png)  |  ![](https://i.postimg.cc/x1S4WcQp/user-story-2.png)
+![](https://i.postimg.cc/VsC4mmDx/user-story-3.png)  |  ![](https://i.postimg.cc/ncdXWQqp/user-story-4.png)
+![](https://i.postimg.cc/xj58kbxM/user-story-5.png)  |  ![]()
 
-    -  FR-01: A user should be able to login
-    -  FR-02: A user should be able to register 
-        o	B-02.1: The email adres should be unique
-        o	B-02.2: The password should be unique
-    -  FR-03: A user should be able to make an order
-        o	B-03.1: A user needs at least one product in their shopping cart 
-    -  FR-04: A user should be able to look at their account information
-    -  FR-05: A user should be able to change their account information 
-    -  FR-06: A user should be able to delete their acccount
-    -  FR-07: A user should be able to change their products in their shopping cart
-    -  FR-08: An administrator should be able to see the orders in an easy way
-    -  FR-09: The account that are made should be saved by the system
-        o	B-09.1: Only the administrator should be able to see the account, not the users
-
-###### 2. Non-functional requirements
-
-    - NR-01: The application gives an error if the user can fix it himself
-    - NR-02: The application gives an error if something is wrong between the connection with the API and the application
-
+# 
 
 ##### Research
 
