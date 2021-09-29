@@ -1,3 +1,5 @@
+<img src="https://cdn.dribbble.com/users/1671186/screenshots/7103694/media/7e6a6c5a4e6d9afd51364b17ca627e08.gif" width="100%" height="500px"/>
+
 # Webshop
 
 ## About the project
