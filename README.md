@@ -46,7 +46,6 @@ spring.datasource.password=root
 - GET: <code>/api/products/</code>
 - GET: <code>/api/product{id}/</code>
 - POST: <code>/api/addProduct/</code>
-- DELETE: <code>/api/delete/{id}/</code>
 - PUT: <code>/api/update/</code>
 
 <a href="https://github.com/Semm6/OrderService-Webshop">Orderservice</a>
@@ -54,5 +53,4 @@ spring.datasource.password=root
 - GET: <code>/api/orders/</code>
 - GET: <code>/api/order{id}/</code>
 - POST: <code>/api/addOrder/</code>
-- DELETE: <code>/api/order/{id}/</code>
 - PUT: <code>/api/updateOrder/</code>
