@@ -11,7 +11,7 @@ The reason i use React for this project is because i want to learn it for the fu
 By doing some research about SQl or NoSQL i came to a conclusion. For my application (webshop) the best choice is to use a SQL-database. This is a good choice because my data is structured. A good project to have a NoSQL database is for example twitter where your data is all random. The plan for this project is to make 3 databases each related to 1 thing. So for example i would have 1 database for products only. This makes it single responsibility too. 
 
 
-## Start of the project
+# Start of the project
 
 #### User stories
 
@@ -30,17 +30,27 @@ By doing some research about SQl or NoSQL i came to a conclusion. For my applica
  </table>
 
 
-## Learning outcomes
+# Learning outcomes
 
 These are all the learning outcomes i need to acomplish by the end of the semester.
 
-### Outcome 1: You design and build user-friendly, full stack web applications
+## Outcome 1: You design and build user-friendly, full stack web applications
+
+### 1. ProductService: show products with an api call. 
+
+As you can see on the pictures there are a couple of products shown. These products are coming from the productservice API that is connected to the MySQL database.
+
+<table>
+  <tr>
+    <td><img src="https://i.postimg.cc/kXfCQC87/Products.png" width=500 height=250></td> 
+    <td><img src="https://i.postimg.cc/vmpb4vn9/Productservice.png" width=500 height=250></td> 
+  </tr>
+ </table>
 
 
+## Outcome 2: Tooling and methodology
 
-### Outcome 2: Tooling and methodology
+## Outcome 3: Design and implement (release process)
 
-### Outcome 3: Design and implement (release process)
-
-### Outcome 4: Professional manner
+## Outcome 4: Professional manner
 
