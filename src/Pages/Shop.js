@@ -1,6 +1,8 @@
 import React from 'react'
 import "../Style/shop.css";
 import APIService from '../ApiService/ProductAPIService'
+import Button from '@mui/material/Button';
+
 
 export default class Shop extends React.Component {
 
@@ -33,7 +35,12 @@ export default class Shop extends React.Component {
                                             <div><img className="cardimg" src={product.image} /></div>
                                             <h6>{product.name}</h6>
                                             <p>€{product.price}</p>
-                                            <div><button className="button"><p>+</p></button></div>
+                                            <Button 
+                                                style={{ backgroundColor: 'green'}}
+                                                variant="contained"
+                                                >
+                                                Add to card
+                                            </Button>
                                         </div>       
                                     </div>
                         )
