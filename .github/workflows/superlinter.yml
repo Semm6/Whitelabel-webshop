@@ -7,7 +7,7 @@ on: push
 jobs:
   superlint:
     name: Lint code base 
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     steps:
      - name: Checkout code
        uses: actions/checkout@v2
