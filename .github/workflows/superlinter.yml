@@ -2,7 +2,12 @@
 
 name: Super-Linter
 
-on: push
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - '**/.md'
 
 jobs:
   superlint:
