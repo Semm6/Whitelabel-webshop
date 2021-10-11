@@ -38,7 +38,7 @@ These are all the learning outcomes i need to acomplish by the end of the semest
 
 ### 1. Product service: show products with an api call. 
 
-As you can see on the pictures there are a couple of products shown. These products are coming from the productservice API that is connected to the MySQL database.
+As you can see on the pictures there are a couple of products shown. These products are coming from the productservice API that is connected to a MySQL database.
 
 <table>
   <tr>
@@ -65,6 +65,24 @@ sources:
 
 - [Docs Auth0](https://auth0.com/docs/quickstart/spa/react)
 - [Video from codestacker](https://www.youtube.com/watch?v=MqczHS3Z2bc)
+
+### 3. Discovery service: show all the services
+
+When the client makes a request on the webshop the discovery service will make sure that you can find the microservices in your architecture. Its good to understand that this discovery service knows where are the services are. And also its good to understand that all these microservices that want to be discovered will be saying to the discovery service "Let them know im here to be used". I can make sure that the these services can be discoverd by adding the code below to the startup file in the springboot application.
+
+```
+@EnableEurekaClient
+```
+
+<table>
+  <tr>
+    <td><img src="https://i.postimg.cc/L6xcTTsx/Discovery-server.png" width=500 height=250></td> 
+  </tr>
+ </table>
+
+sources:
+
+- [Java brains: understanding discovery service](https://www.youtube.com/watch?v=e09P-CkCvvs&ab_channel=JavaBrains)
 
 ## Outcome 2: Tooling and methodology
 
