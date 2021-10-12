@@ -2,11 +2,11 @@
 
 This project is created with React and springboot.
 
-###### 1. Why am i using React for this project?
+#### 1. Why am i using React for this project?
 
 The reason i use React for this project is because i want to learn it for the future. 1 goal of mine is too learn mobile development and react native is a good thing to master if i wanna go that route one day. I can acomplish this goal easier if i used React before. So this is my main reason to use React in this semester.
 
-###### 2. SQl or NoSQL database?
+#### 2. SQl or NoSQL database?
 
 By doing some research about SQl or NoSQL i came to a conclusion. For my application (webshop) the best choice is to use a SQL-database. This is a good choice because my data is structured. A good project to have a NoSQL database is for example twitter where your data is all random. The plan for this project is to make 3 databases each related to 1 thing. So for example i would have 1 database for products only. This makes it single responsibility too. 
 
@@ -58,6 +58,7 @@ With this service the website is able to login and register users. I implemented
 <table>
   <tr>
     <td><img src="https://i.postimg.cc/QMn8B32J/Identity-service.png" width=500 height=250></td> 
+    <td><img src="https://i.postimg.cc/pTHKm8zv/Login.png" width=500 height=250></td> 
   </tr>
  </table>
  
@@ -84,6 +85,23 @@ sources:
 
 - [Java brains: understanding discovery service](https://www.youtube.com/watch?v=e09P-CkCvvs&ab_channel=JavaBrains)
 
+### 4. API-Gateway: Use only 1 port
+
+A good way to describe an API-Gateway is an entry point for all clients. You can add different services in the YML file to make sure they all run true the gateway. This gateway also makes it very easy for requests because all the services go true 1 port now (mine runs on 9292). You can see this on the image below. If i want to add some kind of security i am able to implement authorization  when a client is making requests for example.
+
+<table>
+  <tr>
+    <td><img src="https://i.postimg.cc/bv8vbRCm/API-Gateway-request-on-9192-port.png" width=500 height=250></td>
+    <td><img src="https://i.postimg.cc/1tdPW0Bh/YML-file.png" width=500 height=250></td> 
+  </tr>
+ </table>
+
+sources:
+
+- [Java brains](https://www.youtube.com/watch?v=1vjOv_f9L8I&t=5s&ab_channel=JavaBrains)
+- [Daily code buffer](https://www.youtube.com/watch?v=BnknNTN8icw&t=3826s&ab_channel=DailyCodeBuffer)
+nice
+
 ## Outcome 2: Tooling and methodology
 
 ## Outcome 3: Design and implement (release process)
@@ -98,7 +116,7 @@ Below here you can see the docker containers i made for my project. These are al
 
 Here is also a quick step by step tutorial for making a Docker container in springboot (terminal)
 
-1. Create a docker file with these properties:
+1. Create a docker file in your application with these properties:
 
 ```
 FROM openjdk:11
