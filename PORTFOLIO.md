@@ -143,5 +143,43 @@ Sometimes you need to login or logout first with <Code>docker login/logout</Code
 - [Docs Docker]( https://docs.docker.com/)
 - [RedHat](https://www.redhat.com/en/topics/containers/what-is-docker?sc_cid=7013a000002wLw5AAE&gclid=Cj0KCQjwwY-LBhD6ARIsACvT72ME-xBAV_4dIjlqq1IY67_o-kxZBXOdmLtnJftRsT9cghKwGqPfZRkaAkF3EALw_wcB&gclsrc=aw.ds)
 
+### 2. Deploy webservices with Github actions
+
+
+
+```
+FROM maven:3.8.3-jdk-11 AS build-env
+
+WORKDIR /app
+
+COPY pom.xml ./
+RUN mvn dependency:go-offline
+
+#RUN mvn spring-javaformat:help
+#RUN ./mvnw spring-javaformat:help
+
+COPY . ./
+
+#RUN mvn spring-javaformat:apply
+#RUN ./mvnw spring-javaformat:apply
+RUN mvn package -DfinalName=productservice-shop
+
+FROM openjdk:11
+
+EXPOSE 8085
+
+WORKDIR /app
+
+COPY --from=build-env /app/target/productservice-shop-0.0.1-SNAPSHOT.jar ./productservice-shop-0.0.1-SNAPSHOT.jar
+CMD ["/usr/bin/java", "-jar", "/app/productservice-shop-0.0.1-SNAPSHOT.jar"]
+```
+
+<table>
+  <tr>
+    <td><img src="https://i.postimg.cc/02CjDS6D/Schermafbeelding-2021-10-21-om-12-53-22.png" width=500 height=250></td> 
+    <td><img src="https://i.postimg.cc/JnJ4nHVy/Schermafbeelding-2021-10-21-om-12-53-50.png" width=500 height=250></td> 
+  </tr>
+ </table>
+
 ## Outcome 4: Professional manner
 
