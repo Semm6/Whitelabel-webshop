@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { render, screen, cleanup } from "@testing-library/react";
-import Navbar from "../components/Navbar";
+import Navbar from "../Components/Navbar";
 import "@testing-library/jest-dom/extend-expect";
 
 
