@@ -100,7 +100,6 @@ sources:
 
 - [Java brains](https://www.youtube.com/watch?v=1vjOv_f9L8I&t=5s&ab_channel=JavaBrains)
 - [Daily code buffer](https://www.youtube.com/watch?v=BnknNTN8icw&t=3826s&ab_channel=DailyCodeBuffer)
-nice
 
 ## Outcome 2: Tooling and methodology
 
