@@ -2,6 +2,8 @@ import React from 'react'
 import "../Style/shop.css";
 import APIService from '../ApiService/ProductAPIService'
 import Button from '@mui/material/Button';
+import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
+import { CardActions } from '@mui/material';
 
 
 export default class Shop extends React.Component {
@@ -35,12 +37,22 @@ export default class Shop extends React.Component {
                                             <div><img className="cardimg" src={product.image} /></div>
                                             <h6>{product.name}</h6>
                                             <p>€{product.price}</p>
-                                            <Button 
-                                                style={{ backgroundColor: 'green'}}
-                                                variant="contained"
+                                            <CardActions>
+                                                <Button 
+                                                    style={{ backgroundColor: 'green'}}
+                                                    variant="contained"
+                                                    size="medium"
                                                 >
-                                                Add to card
-                                            </Button>
+                                                Details
+                                                </Button>
+                                                <Button 
+                                                    style={{ backgroundColor: 'green'}}
+                                                    variant="contained"
+                                                    size="medium"
+                                                >
+                                                <ShoppingBasketIcon/>
+                                                </Button>
+                                            </CardActions>
                                         </div>       
                                     </div>
                         )

@@ -1,10 +1,11 @@
-const PRODUCTS_REST_API = 'http://localhost:9192/api/products/';
+const PRODUCTS_REST_API = 'http://localhost:8085/api/products/';
 
 
 class ProductAPIService {   
 
     getProducts(){
-        return fetch(PRODUCTS_REST_API)
+        return fetch(PRODUCTS_REST_API,{ 
+        })
         .then(res => res.json());        
     }
 }
