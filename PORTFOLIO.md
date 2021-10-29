@@ -105,9 +105,9 @@ sources:
 
 For this learning outcome i made some unit and integration tests. This will verify that my application is doing what its supposed to do. Also a good benefit of testing is preventing bugs and helps with the quality of the code. Below on the images you can see 2 sort of tests i made: unit and integration tests. Here is some explanation on both of these tests. 
 
-Unit testing: This is a testing technic that tests individual units of code. So for example this will only test the motor of a car and not the whole car by itself. Possibly the developer will be using mockobjects to simulate behaviors of objects. This is helpfull when you are testing because you can use fake objects instead of the real objects in your project.
+<code>Unit testing:</code> This is a testing technic that tests individual units of code (methods). So for example in my application 1 test only test the method that i can get all the products or that i can create a product. Possibly the developer will be using mockobjects to simulate behaviors of objects. This is helpfull when you are testing because you can use fake objects instead of the real objects from your project.
 
-Integration testing: 
+<code> Integration testing:</code> With integration testing the entire process in tested (in this case a specific request). This is done with MockMvc. MockMvc allows you to send fake HTTP requests to a controller and test how the controller behaves. A good way to test these request is with fake data so when you want to create a new product for example you already tested the request with fake product data that you made up. This way you can test the entire application process.
 
  Unit test                      |                      Integration test 
 :-------------------------:|:-------------------------:
