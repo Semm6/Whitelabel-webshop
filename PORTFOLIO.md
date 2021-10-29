@@ -103,6 +103,12 @@ sources:
 
 ## Outcome 2: Tooling and methodology
 
+ Unit test                      |                      Integration test 
+:-------------------------:|:-------------------------:
+![](https://i.postimg.cc/PJ4RLdMN/Unit-test-1.png)  |  ![](https://i.postimg.cc/hjRypXyf/Integration-test-1.png)
+![](https://i.postimg.cc/T2qSNcXG/Unit-test-2.png)  |  ![](https://i.postimg.cc/vB7PjGkX/Integration-test-2.png)
+![](https://i.postimg.cc/qvYZ6b2c/Unit-test-results.png)  |  ![](https://i.postimg.cc/cCXFxXsn/Integration-test-results.png)
+
 ## Outcome 3: Design and implement (release process)
 
 ### 1. Docker containers
