@@ -103,11 +103,23 @@ sources:
 
 ## Outcome 2: Tooling and methodology
 
+For this learning outcome i made some unit and integration tests. This will verify that my application is doing what its supposed to do. Also a good benefit of testing is preventing bugs and helps with the quality of the code. Below on the images you can see 2 sort of tests i made: unit and integration tests. Here is some explanation on both of these tests. 
+
+Unit testing: This is a testing technic that tests individual units of code. So for example this will only test the motor of a car and not the whole car by itself. Possibly the developer will be using mockobjects to simulate behaviors of objects. This is helpfull when you are testing because you can use fake objects instead of the real objects in your project.
+
+Integration testing: 
+
  Unit test                      |                      Integration test 
 :-------------------------:|:-------------------------:
 ![](https://i.postimg.cc/PJ4RLdMN/Unit-test-1.png)  |  ![](https://i.postimg.cc/hjRypXyf/Integration-test-1.png)
 ![](https://i.postimg.cc/T2qSNcXG/Unit-test-2.png)  |  ![](https://i.postimg.cc/vB7PjGkX/Integration-test-2.png)
 ![](https://i.postimg.cc/qvYZ6b2c/Unit-test-results.png)  |  ![](https://i.postimg.cc/cCXFxXsn/Integration-test-results.png)
+
+sources:
+
+- [Kris Foster](https://www.youtube.com/watch?v=aEW8ZH6wj2o&ab_channel=KrisFoster)
+- [Stackoverflow what is mocking?](https://stackoverflow.com/questions/2665812/what-is-mocking)
+- [Amigoscode](https://www.youtube.com/watch?v=Geq60OVyBPg&t=3600s&ab_channel=Amigoscode)
 
 ## Outcome 3: Design and implement (release process)
 
