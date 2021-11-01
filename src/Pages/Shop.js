@@ -1,63 +1,27 @@
 import React from 'react'
 import "../Style/shop.css";
-import APIService from '../ApiService/ProductAPIService'
-import Button from '@mui/material/Button';
-import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
-import { CardActions } from '@mui/material';
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
+import ProductCard from '../Components/ProductCard';
+import useFetch from '../ApiService/useFetch';
 
 
-export default class Shop extends React.Component {
+const Shop = () => {
 
-    constructor(props) {
-        super(props)
-    
-        this.state = {
-             product: []
-        }
-    }
-    
-    componentDidMount(){
-        APIService.getProducts().then((data) => {
-            this.setState({ product: data })
-            console.log(this.state.data)
-          })
-          .catch(function (ex) {
-              console.log('Response parsing failed. Error: ', ex);
-          });;
-    }
+    const { data: products, error, isPending } = useFetch('http://localhost:8085/api/products/');
 
-    render() {
         return (
             <div>
-                <h2 className="header">Shop</h2>
-                <div>{ 
-                        this.state.product.map(product =>
-                                    <div className="column">
-                                            <div className="card">
-                                            <div><img className="cardimg" src={product.image} /></div>
-                                            <h6>{product.name}</h6>
-                                            <p>€{product.price}</p>
-                                            <CardActions>
-                                                <Button 
-                                                    style={{ backgroundColor: 'green'}}
-                                                    variant="contained"
-                                                    size="medium"
-                                                >
-                                                Details
-                                                </Button>
-                                                <Button 
-                                                    style={{ backgroundColor: 'green'}}
-                                                    variant="contained"
-                                                    size="medium"
-                                                >
-                                                <ShoppingBasketIcon/>
-                                                </Button>
-                                            </CardActions>
-                                        </div>       
-                                    </div>
-                        )
-                        }</div>
+                <Container>
+                    <Row>
+                        <h1>Products</h1>   
+                        { error && <div>{ error }</div> }
+                        { isPending && <div>Loading...</div> }
+                        { products && <ProductCard products={products} /> }
+                    </Row>
+                </Container>
             </div>
         )
-    }
 }
+
+export default Shop;
