@@ -1,5 +1,9 @@
 # Ux Research Mediaan
 
+This research was made in Dutch and is for a group project i'm working on. Repository is below.
+
+Repository: <a href="https://bitbucket.org/studentjovi/24eat/src/master/">24Eat</a>
+
 ## Context
 
 Dit onderzoek gaat over de UX van de Mediaan applicatie die ik bouw met mijn groepje van de proftaak.  Om dit onderzoek goed uit te voeren ga ik designs maken voor de applicatie en deze vervolgens testen en aanpassen waar nodig. Ondertussen spreek ik ook veel met de stakeholder over het verbeteren van de UX tijdens en na het testen. Hieronder staat ook de opdracht die we hebben gekregen van Mediaan.
