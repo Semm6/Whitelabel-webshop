@@ -36,7 +36,7 @@ These are all the learning outcomes i need to acomplish by the end of the semest
 
 ## Outcome 1: You design and build user-friendly, full stack web applications
 
-### 1. Product service: show products with an api call. 
+### 1. Product service: show products with an api call
 
 As you can see on the pictures there are a couple of products shown. These products are coming from the productservice API that is connected to a MySQL database.
 
@@ -103,6 +103,8 @@ sources:
 
 ## Outcome 2: Tooling and methodology
 
+### 1. Unit and integration tests
+
 For this learning outcome i made some unit and integration tests. This will verify that my application is doing what its supposed to do. Also a good benefit of testing is preventing bugs and helps with the quality of the code. Below on the images you can see 2 sort of tests i made: unit and integration tests. Here is some explanation on both of these tests. 
 
 <code>Unit testing:</code> This is a testing technic that tests individual units of code (methods). So for example in my application 1 test only test the method that i can get all the products or that i can create a product. Possibly the developer will be using mockobjects to simulate behaviors of objects. This is helpfull when you are testing because you can use fake objects instead of the real objects from your project.
@@ -120,6 +122,40 @@ sources:
 - [Kris Foster](https://www.youtube.com/watch?v=aEW8ZH6wj2o&ab_channel=KrisFoster)
 - [Stackoverflow what is mocking?](https://stackoverflow.com/questions/2665812/what-is-mocking)
 - [Amigoscode](https://www.youtube.com/watch?v=Geq60OVyBPg&t=3600s&ab_channel=Amigoscode)
+
+### 2. Automating tests on push 
+
+After making the tests above i needed to automate this by testing everytime when i push. This makes sure the code is always tested everytime i make a new change. The quality of the code
+
+```
+name: tests
+on: push
+jobs:
+  run_tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v2
+      - name: Set up JDK 14
+        uses: actions/setup-java@v1
+        with:
+          java-version: 14
+      - name: Cache Maven packages
+        uses: actions/cache@v2
+        with:
+          path: ~/.m2
+          key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
+          restore-keys: ${{ runner.os }}-m2
+      - name: Run tests with Maven
+        run: mvn -B test --file pom.xml
+```
+
+<table>
+  <tr>
+    <td><img src="https://i.postimg.cc/QCjbKRhW/Test1.png" width=500 height=250></td>
+    <td><img src="https://i.postimg.cc/ry9g2FNG/Test2.png" width=500 height=250></td> 
+  </tr>
+ </table>
 
 ## Outcome 3: Design and implement (release process)
 
