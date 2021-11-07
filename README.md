@@ -2,6 +2,8 @@
 
 # Webshop
 
+![workflow](https://github.com/Semm6/Whitelabel-webshop/actions/workflows/test.yml/badge.svg)
+
 ## About the project
 
 ### Front-end
