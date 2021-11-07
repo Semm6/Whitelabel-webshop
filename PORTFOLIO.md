@@ -13,7 +13,7 @@ By doing some research about SQl or NoSQL i came to a conclusion. For my applica
 
 # Start of the project
 
-#### User stories
+### User stories
 
 <table>
   <tr>
@@ -28,6 +28,20 @@ By doing some research about SQl or NoSQL i came to a conclusion. For my applica
     <td><img src="https://i.postimg.cc/xj58kbxM/user-story-5.png" width=500 height=250></td> 
   </tr>
  </table>
+ 
+ ### C4 Model
+ 
+ #### C1 
+ 
+ <img src="https://i.postimg.cc/263sTPLx/C4-model-1-V2-webshop.png" width=1000 height=500>
+ 
+ #### C2
+  
+<img src="https://i.postimg.cc/jjSQ7TBZ/C2-model-V2-webshop.png" width=1000 height=500>
+ 
+ #### C3
+ 
+ <img src="https://i.postimg.cc/XqdDz3j9/C4-model-3-V2-webshop.png" width=1000 height=500>
 
 
 # Learning outcomes
