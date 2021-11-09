@@ -182,6 +182,9 @@ A good reason to use an H2 database is because it can be configured to run as in
   </tr>
  </table>
  
+ sources: 
+
+- [Amigoscode](https://www.youtube.com/watch?v=Geq60OVyBPg&ab_channel=Amigoscode)
 
 ## Outcome 3: Design and implement (release process)
 
