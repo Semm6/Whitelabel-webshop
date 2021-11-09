@@ -170,6 +170,18 @@ jobs:
     <td><img src="https://i.postimg.cc/ry9g2FNG/Test2.png" width=500 height=250></td> 
   </tr>
  </table>
+ 
+### 3. Testing with H2 database
+
+A good reason to use an H2 database is because it can be configured to run as in-memory database. The benefits of this are that it can create a clean database, execute unit tests and then delete the database very fast. If you would create and delete a physical database at each build it would consume much time. On the images below you can see that i setup some properties and that i run the unit tests with the H2 database. Also the tests run very fast
+
+<table>
+  <tr>
+    <td><img src="https://i.postimg.cc/4dT09Ntr/Properties-H2-database.png" width=500 height=250></td>
+    <td><img src="https://i.postimg.cc/7P9R54LW/Running-tests-with-H2.png" width=500 height=250></td> 
+  </tr>
+ </table>
+ 
 
 ## Outcome 3: Design and implement (release process)
 
@@ -250,10 +262,15 @@ CMD ["/usr/bin/java", "-jar", "/app/productservice-shop-0.0.1-SNAPSHOT.jar"]
 
 ### 1. Contribute to open source
 
+On the images below you can see that i created a README file for an open source project. This is the first time i ever contributed. Before i did this i looked ut some information about contributing to projects and a proper way of doing this. I started simple by creating this README and then making a pull request. The next day i got a message that my contribution had bin merged to the master. So from now on i can say that i made a small piece for this project even if it's just a file. This semester and in the future i will be contributing alot more.
+
 <table>
   <tr>
     <td><img src="https://i.postimg.cc/xdC7ccz6/Create-readme.png" width=500 height=250></td> 
     <td><img src="https://i.postimg.cc/d1Zxjpnd/PR-readme.png" width=500 height=250></td> 
   </tr>
  </table>
+
+### 2. Github flow
+
 
