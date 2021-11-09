@@ -262,7 +262,7 @@ CMD ["/usr/bin/java", "-jar", "/app/productservice-shop-0.0.1-SNAPSHOT.jar"]
 
 ### 1. Contribute to open source
 
-On the images below you can see that i created a README file for an open source project. This is the first time i ever contributed. Before i did this i looked ut some information about contributing to projects and a proper way of doing this. I started simple by creating this README and then making a pull request. The next day i got a message that my contribution had bin merged to the master. So from now on i can say that i made a small piece for this project even if it's just a file. This semester and in the future i will be contributing alot more.
+On the images below you can see that i created a README file for an open source project. This is the first time i ever contributed. Before i did this i looked up some information about contributing to projects and a proper way of doing this. I started simple by creating this README and then making a pull request. The next day i got a message that my contribution had bin merged to the master. So from now on i can say that i made a small piece for this project even if it's just a file. This semester and in the future i will be contributing alot more.
 
 <table>
   <tr>
@@ -270,6 +270,11 @@ On the images below you can see that i created a README file for an open source 
     <td><img src="https://i.postimg.cc/d1Zxjpnd/PR-readme.png" width=500 height=250></td> 
   </tr>
  </table>
+ 
+ sources: 
+ 
+ - [Find Github repos to contribute to](https://www.youtube.com/watch?v=W7AewHnxMig&t=540s&ab_channel=BenKadel)
+ - [Complete guide to open source](https://www.youtube.com/watch?v=yzeVMecydCE&ab_channel=freeCodeCamp.org)
 
 ### 2. Github flow
 
