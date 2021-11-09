@@ -33,15 +33,15 @@ By doing some research about SQl or NoSQL i came to a conclusion. For my applica
  
  #### C1 
  
- <img src="https://i.postimg.cc/263sTPLx/C4-model-1-V2-webshop.png" width=1000 height=500>
+ <img src="https://i.postimg.cc/263sTPLx/C4-model-1-V2-webshop.png" width=750 height=500>
  
  #### C2
   
-<img src="https://i.postimg.cc/jjSQ7TBZ/C2-model-V2-webshop.png" width=1000 height=500>
+<img src="https://i.postimg.cc/jjSQ7TBZ/C2-model-V2-webshop.png" width=750 height=500>
  
  #### C3
  
- <img src="https://i.postimg.cc/XqdDz3j9/C4-model-3-V2-webshop.png" width=1000 height=500>
+ <img src="https://i.postimg.cc/XqdDz3j9/C4-model-3-V2-webshop.png" width=750 height=500>
 
 
 # Learning outcomes
@@ -212,8 +212,6 @@ Sometimes you need to login or logout first with <Code>docker login/logout</Code
 
 ### 2. Deploy webservices with Github actions
 
-
-
 ```
 FROM maven:3.8.3-jdk-11 AS build-env
 
@@ -249,4 +247,13 @@ CMD ["/usr/bin/java", "-jar", "/app/productservice-shop-0.0.1-SNAPSHOT.jar"]
  </table>
 
 ## Outcome 4: Professional manner
+
+### 1. Contribute to open source
+
+<table>
+  <tr>
+    <td><img src="https://i.postimg.cc/xdC7ccz6/Create-readme.png" width=500 height=250></td> 
+    <td><img src="https://i.postimg.cc/d1Zxjpnd/PR-readme.png" width=500 height=250></td> 
+  </tr>
+ </table>
 
