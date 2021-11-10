@@ -206,7 +206,7 @@ EXPOSE <PORT>
 ADD target/<PROJECT_NAME>.jar <PROJECT_NAME>.jar
 ENTRYPOINT ["java", "-jar", "/<PROJECT_NAME>"]
 ```
-2. Get the jar file by using <Code>MVN Package</Code> in the terminal
+2. Get the jar file by using <Code>MVN package</Code> in the terminal
 3. run <Code>Docker build -t username/your-project-name . </Code>
 4. <Code>docker tag username/your-project-name username/your-project-name</Code>
 5. <Code>docker push username/your-project-name</Code>
@@ -281,4 +281,4 @@ On the images below you can see that i created a README file for an open source 
 
 ### 2. Github flow
 
-
+<img src="https://i.postimg.cc/NFGrWr98/b1ed5902-206f-1383-75ed-1e58034460b3.png" width=750 height=350>
