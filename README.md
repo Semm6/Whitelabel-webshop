@@ -3,6 +3,8 @@
 # Webshop
 
 ![workflow](https://github.com/Semm6/Whitelabel-webshop/actions/workflows/test.yml/badge.svg)
+[![GitHub issues](https://img.shields.io/github/issues/Semm6/Whitelabel-webshop?logo=GitHub)](https://github.com/Semm6/Whitelabel-webshop/issues)
+[![GitHub stars](https://img.shields.io/github/stars/Semm6/Whitelabel-webshop?logo=GitHub)](https://github.com/Semm6/Whitelabel-webshop/stargazers)
 
 ## About the project
 
