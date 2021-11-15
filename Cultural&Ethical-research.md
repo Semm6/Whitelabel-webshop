@@ -48,19 +48,19 @@ For the group project I did some front-end development. Before I implemented a p
 
 A good way to avoid/minimize conflicts is to ask a lot of feedback from In this case the PO and potential customers as mentioned above. If there is a lot of feedback you maybe need to consider changing a lot of things. After the changes you are still avoiding/minimizing the conflicts.
 
-## culture
+## Culture
 
 ### What is culture? 
 
 Culture as defined by [Ensie](https://www.ensie.nl/redactie-ensie/cultuur) means:
 
-> the habits and customs that a people has in the country itself or that a people takes with them from the country of origin. This includes the whole of norms and > values, food, eating habits, clothing, religion and music and dance. This also includes uses such as body decoration with henna, which is mainly found in Arab, > African and Indian cultures. The meaning of a color can also differ from culture to culture. In the Netherlands, for example, black is the mourning color, while in > China and Japan it is white. Body language also plays a role, and non-verbal communication may differ. It also includes the way of life: what does the working > population live on, what are the traditions, and how are the buildings designed. The culture is in fact a sum of these characteristics
+> the habits and customs that a people has in the country itself or that a people takes with them from the country of origin. This includes the whole of norms and values, food, eating habits, clothing, religion and music and dance. This also includes uses such as body decoration with henna, which is mainly found in Arab, African and Indian cultures. The meaning of a color can also differ from culture to culture. In the Netherlands, for example, black is the mourning color, while in China and Japan it is white. Body language also plays a role, and non-verbal communication may differ. It also includes the way of life: what does the working population live on, what are the traditions, and how are the buildings designed. The culture is in fact a sum of these characteristics
 
 ### Which cultural aspects would you keep in mind when facing cultural differences?
 
 According to [O. Seebregts](https://mijn.bsl.nl/5-omgaan-met-cultuurverschillen/400948) who wrote a book about cultural differences:  
 
-> Cultural differences can lead to prejudice, discrimination and racism. The best way to combat this is not to fight them. You can better recognize that prejudice > exists and look for the root cause of racist behavior. Then you will investigate whether you can do something about this.
+> Cultural differences can lead to prejudice, discrimination and racism. The best way to combat this is not to fight them. You can better recognize that prejudice exists and look for the root cause of racist behavior. Then you will investigate whether you can do something about this.
 
 ### How can cultures be clustured? 
 
@@ -71,16 +71,16 @@ Many cultures are brought together because they live in the same country. The Ne
 According to [Mindtools](https://www.mindtools.com/pages/article/cross-cultural-mistakes.htm) there are many mistakes that can be made. Below I will name 4 of them mentioned in this research each with one example.
 
 Food:
-> In Asian and Russian cultures, it's common not to talk during a meal because the food is the focus. Most conversation takes place after dinner. This isn't the > case in, for example, Japan, where colleagues often discuss work after hours and while socializing over a meal.
+> In Asian and Russian cultures, it's common not to talk during a meal because the food is the focus. Most conversation takes place after dinner. This isn't the case in, for example, Japan, where colleagues often discuss work after hours and while socializing over a meal.
 
 Body language and gestures:
-> Certain gestures considered acceptable in one country can be highly offensive in another. For example, a "thumbs up" gesture is seen as a sign of satisfaction in > the West, but is highly offensive in some Middle Eastern countries.
+> Certain gestures considered acceptable in one country can be highly offensive in another. For example, a "thumbs up" gesture is seen as a sign of satisfaction in the West, but is highly offensive in some Middle Eastern countries.
 
 Clothing and color:
-> In the South Pacific, Asia, Thailand, and Russia, it's courteous to remove your shoes before entering a home. This helps maintain cleanliness; but it's also a > sign that you're leaving the outside world where it belongs.
+> In the South Pacific, Asia, Thailand, and Russia, it's courteous to remove your shoes before entering a home. This helps maintain cleanliness; but it's also a sign that you're leaving the outside world where it belongs.
 
 Personal space:
-> In the United States, many people prefer to keep one to two meters' space between friends and family members, and up to three meters between strangers and > business associates. These preferences are similar in the United Kingdom, Norway, Germany, and other European countries.
+> In the United States, many people prefer to keep one to two meters' space between friends and family members, and up to three meters between strangers and business associates. These preferences are similar in the United Kingdom, Norway, Germany, and other European countries.
 
 ### What is your culture? 
 
