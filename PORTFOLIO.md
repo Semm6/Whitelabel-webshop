@@ -33,16 +33,21 @@ By doing some research about SQl or NoSQL i came to a conclusion. For my applica
  
  #### C1 
  
- <img src="https://i.postimg.cc/263sTPLx/C4-model-1-V2-webshop.png" width=750 height=500>
+On the picture above you can see the C1 model. In this model you can see an overview of the application. I'm making an webshop with an external login     service. This is displayed as login service. In the C1 model there are no details required.
+ 
+ <img src="https://i.postimg.cc/kMV2RpMz/C1.png" width=750 height=500>
  
  #### C2
+ 
+In this C2 model you can see that a customer starts by getting on the website. After this he can watch products and order via the 2 services i made for this. If he wants to order he uses the external login service on the top right. 
   
-<img src="https://i.postimg.cc/jjSQ7TBZ/C2-model-V2-webshop.png" width=750 height=500>
+<img src="https://i.postimg.cc/hGfBZNYq/C2.png" width=750 height=500>
  
  #### C3
  
+In the C3 model we are diving deeper in the application. For example i picked the productservice for now. If a customer makes a request it goed true a controller that handles it. With that there is a database that will store all the data.
+ 
  <img src="https://i.postimg.cc/XqdDz3j9/C4-model-3-V2-webshop.png" width=750 height=500>
-
 
 # Learning outcomes
 
@@ -177,7 +182,7 @@ A good reason to use an H2 database is because it can be configured to run as in
 
 <table>
   <tr>
-    <td><img src="https://i.postimg.cc/4dT09Ntr/Properties-H2-database.png" width=500 height=250></td>
+    <td><img src="https://i.postimg.cc/qqYnnPWM/H2-db-properties.png" width=500 height=250></td>
     <td><img src="https://i.postimg.cc/7P9R54LW/Running-tests-with-H2.png" width=500 height=250></td> 
   </tr>
  </table>
