@@ -33,11 +33,11 @@ By doing some research about SQl or NoSQL i came to a conclusion. For my applica
  
  #### C1 
  
- <img src="https://i.postimg.cc/263sTPLx/C4-model-1-V2-webshop.png" width=750 height=500>
+ <img src="https://i.postimg.cc/kMV2RpMz/C1.png" width=750 height=500>
  
  #### C2
   
-<img src="https://i.postimg.cc/jjSQ7TBZ/C2-model-V2-webshop.png" width=750 height=500>
+<img src="https://i.postimg.cc/hGfBZNYq/C2.png" width=750 height=500>
  
  #### C3
  
