@@ -177,7 +177,7 @@ A good reason to use an H2 database is because it can be configured to run as in
 
 <table>
   <tr>
-    <td><img src="https://i.postimg.cc/4dT09Ntr/Properties-H2-database.png" width=500 height=250></td>
+    <td><img src="https://i.postimg.cc/qqYnnPWM/H2-db-properties.png" width=500 height=250></td>
     <td><img src="https://i.postimg.cc/7P9R54LW/Running-tests-with-H2.png" width=500 height=250></td> 
   </tr>
  </table>
