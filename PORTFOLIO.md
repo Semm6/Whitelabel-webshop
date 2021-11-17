@@ -33,16 +33,21 @@ By doing some research about SQl or NoSQL i came to a conclusion. For my applica
  
  #### C1 
  
+On the picture above you can see the C1 model. In this model you can see an overview of the application. I'm making an webshop with an external login     service. This is displayed as login service. In the C1 model there are no details required.
+ 
  <img src="https://i.postimg.cc/kMV2RpMz/C1.png" width=750 height=500>
  
  #### C2
+ 
+In this C2 model you can see that a customer starts by getting on the website. After this he can watch products and order via the 2 services i made for this. If he wants to order he uses the external login service on the top right. 
   
 <img src="https://i.postimg.cc/hGfBZNYq/C2.png" width=750 height=500>
  
  #### C3
  
+In the C3 model we are diving deeper in the application. For example i picked the productservice for now. If a customer makes a request it goed true a controller that handles it. With that there is a database that will store all the data.
+ 
  <img src="https://i.postimg.cc/XqdDz3j9/C4-model-3-V2-webshop.png" width=750 height=500>
-
 
 # Learning outcomes
 
