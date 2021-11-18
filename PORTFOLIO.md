@@ -191,6 +191,21 @@ A good reason to use an H2 database is because it can be configured to run as in
 
 - [Amigoscode](https://www.youtube.com/watch?v=Geq60OVyBPg&ab_channel=Amigoscode)
 
+### 4. Exception testing
+
+On the images below you can see that i made some exception tests. The reason i made these tests is because i want to be able to see if my exceptions work if anything goes wrong. This exception is custom made and you can call this exception where you want.
+
+<table>
+  <tr>
+    <td><img src="https://i.postimg.cc/wTzqpLrg/Excepion-method.png" width=500 height=250></td>
+    <td><img src="https://i.postimg.cc/L5tmP8nc/Exception-testing.png" width=500 height=250></td> 
+  </tr>
+  <tr>
+    <td><img src="https://i.postimg.cc/cJPW5nYq/Exception-class.png" width=500 height=250></td>
+    <td><img src="https://i.postimg.cc/v8ry3DZj/Exception-controller.png" width=500 height=250></td> 
+  </tr>
+ </table>
+
 ## Outcome 3: Design and implement (release process)
 
 ### 1. Docker containers
