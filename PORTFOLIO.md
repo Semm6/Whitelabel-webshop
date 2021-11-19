@@ -302,3 +302,16 @@ On the images below you can see that i created a README file for an open source 
 ### 2. Github flow
 
 <img src="https://i.postimg.cc/NFGrWr98/b1ed5902-206f-1383-75ed-1e58034460b3.png" width=750 height=350>
+
+### 3. Project board
+
+All the features on the left are issues made by me to track my progress and for new developers to see what they can do if they want to contribiute. In every feature there are a couple of checkboxes to show what needs to be done to complete this feature. On the right image below you can see that i linked an pull request to an issue. This way new contributers and myself are able to see the status of this issue and the issue can be closed when its merged.
+
+To validate that this project board is clear i asked <a href="https://github.com/jellehuibregtse">@JelleHuibregste</a> to review it. He gave me some good feedback on the project board. 
+
+<table>
+  <tr>
+    <td><img src="https://i.postimg.cc/W38Jxd1D/Project-board.png"/></td> 
+    <td><img src="https://i.postimg.cc/3WQTv4NL/Link-PR-to-issue.png"/></td> 
+  </tr>
+ </table>
