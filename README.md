@@ -48,13 +48,13 @@ spring.datasource.password=root
 <a href="https://github.com/Semm6/ProductService-Webshop">Productservice</a>
 
 - GET: <code>/api/products/</code>
-- GET: <code>/api/product{id}/</code>
+- GET: <code>/api/product/{id}</code>
 - POST: <code>/api/addProduct/</code>
 - PUT: <code>/api/update/</code>
 
 <a href="https://github.com/Semm6/OrderService-Webshop">Orderservice</a>
 
 - GET: <code>/api/orders/</code>
-- GET: <code>/api/order{id}/</code>
+- GET: <code>/api/order/{id}</code>
 - POST: <code>/api/addOrder/</code>
 - PUT: <code>/api/updateOrder/</code>
