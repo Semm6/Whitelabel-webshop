@@ -308,7 +308,7 @@ To validate that this project board is clear i asked <a href="https://github.com
 
 <table>
   <tr>
-    <td><img src="https://i.postimg.cc/W38Jxd1D/Project-board.png"/></td> 
+    <td><img src="https://i.postimg.cc/MGXsNHwD/Project-board.png"/></td> 
     <td><img src="https://i.postimg.cc/3WQTv4NL/Link-PR-to-issue.png"/></td> 
   </tr>
  </table>
