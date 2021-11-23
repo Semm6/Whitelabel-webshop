@@ -120,6 +120,20 @@ sources:
 - [Java brains](https://www.youtube.com/watch?v=1vjOv_f9L8I&t=5s&ab_channel=JavaBrains)
 - [Daily code buffer](https://www.youtube.com/watch?v=BnknNTN8icw&t=3826s&ab_channel=DailyCodeBuffer)
 
+### 5. Auth0 Poc in Swift
+
+Because i am interested in Swift for the upcoming semester i made a poc to see if i could use Auth0 with a Swift application. The repository for this is mentioned below.
+
+[Swift Auth0 Poc repo](https://github.com/Semm6/Swift-Auth0-poc)
+
+<table>
+  <tr>
+    <td><img src="https://www.linkpicture.com/q/Auth0-login-screen_1.png" width=500 height=250></td>
+    <td><img src="https://i.postimg.cc/Y0FW5Dk2/Auth0-logged-in.png" width=500 height=250></td> 
+  </tr>
+ </table>
+
+
 ## Outcome 2: Tooling and methodology
 
 ### 1. Unit and integration tests
@@ -205,6 +219,12 @@ On the images below you can see that i made some exception tests. The reason i m
     <td><img src="https://i.postimg.cc/v8ry3DZj/Exception-controller.png" width=500 height=250></td> 
   </tr>
  </table>
+ 
+### 5. Code review
+
+My fellow student [@JoviSimons](https://github.com/JoviSimons) did a code review for me. He reviewed the PR for merging the fixed bug i had when pushing the H2 database to GitHub. As you can see on the image below he wrote a comment about it. He is also assigned to this PR and a contributer because he reviewed for me!
+
+<img src="https://i.postimg.cc/ZK0ngMbr/Code-review.png">
 
 ## Outcome 3: Design and implement (release process)
 
