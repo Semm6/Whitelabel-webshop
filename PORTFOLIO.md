@@ -332,3 +332,18 @@ To validate that this project board is clear i asked <a href="https://github.com
     <td><img src="https://i.postimg.cc/3WQTv4NL/Link-PR-to-issue.png"/></td> 
   </tr>
  </table>
+
+### 3. GitHub flow
+
+In these and the upcoming project i will be using what's called the GitHub flow. This means that i am working with a branche-based workflow. This also works very good when your building a project with a group of developers. Below i made a small step by step guide on how the GitHub flow works.
+
+1. Create a branche
+2. Make changes
+3. Create a pull request
+4. Let someone review the pull request
+5. Merge your pull request
+6. Delete your branche
+
+On the image below you can see this flow very well.
+
+<img src="https://i.postimg.cc/rwwdRDGc/Github-flow.png" width="485"/>
