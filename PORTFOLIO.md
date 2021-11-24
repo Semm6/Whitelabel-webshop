@@ -33,7 +33,7 @@ By doing some research about SQl or NoSQL I came to a conclusion. The best choic
  
  #### C1 
  
-In the image above you can see the C1 model. In this model you can see an overview of the application. I'm making a webshop with an external login service. This is displayed as login service. In the C1 model there are no details required.
+In the image below you can see the C1 model. In this model you can see an overview of the application. I'm making a webshop with an external login service. This is displayed as login service. In the C1 model there are no details required.
  
  <img src="https://i.postimg.cc/kMV2RpMz/C1.png" width=750 height=500>
  
