@@ -2,13 +2,13 @@
 
 This project is created with React and springboot.
 
-#### 1. Why am i using React for this project?
+#### 1. Why am I using React for this project?
 
-The reason i use React for this project is because i want to learn it for the future. 1 goal of mine is too learn mobile development and react native is a good thing to master if i wanna go that route one day. I can acomplish this goal easier if i used React before. So this is my main reason to use React in this semester.
+The reason I use React for this project is because I want to learn it for the future. A goal of mine is to learn mobile development and react native. These are good things to master if I wan't to go that route one day. If I use react now, then this goal will be eassier to achieve. So this is my main reason to use React in this semester.
 
 #### 2. SQl or NoSQL database?
 
-By doing some research about SQl or NoSQL i came to a conclusion. For my application (webshop) the best choice is to use a SQL-database. This is a good choice because my data is structured. A good project to have a NoSQL database is for example twitter where your data is all random. The plan for this project is to make 3 databases each related to 1 thing. So for example i would have 1 database for products only. This makes it single responsibility too. 
+By doing some research about SQl or NoSQL I came to a conclusion. The best choice for my application (webshop) is to use a SQL-database. This is a good choice because my data is structured. A good project to have a NoSQL database is for example twitter, where your data is all random. The plan for this project is to make 3 databases each related to 1 thing. So for example I would have one database for products only. This makes it single responsibility too. 
 
 
 # Start of the project
@@ -33,25 +33,25 @@ By doing some research about SQl or NoSQL i came to a conclusion. For my applica
  
  #### C1 
  
-On the picture above you can see the C1 model. In this model you can see an overview of the application. I'm making an webshop with an external login     service. This is displayed as login service. In the C1 model there are no details required.
+In the image above you can see the C1 model. In this model you can see an overview of the application. I'm making a webshop with an external login service. This is displayed as login service. In the C1 model there are no details required.
  
  <img src="https://i.postimg.cc/kMV2RpMz/C1.png" width=750 height=500>
  
  #### C2
  
-In this C2 model you can see that a customer starts by getting on the website. After this he can watch products and order via the 2 services i made for this. If he wants to order he uses the external login service on the top right. 
+In this C2 model you can see that a customer starts by getting on the website. After this he can watch products and order via the 2 services I made for this. If he wants to order he uses the external login service on the top right. 
   
 <img src="https://i.postimg.cc/hGfBZNYq/C2.png" width=750 height=500>
  
  #### C3
  
-In the C3 model we are diving deeper in the application. For example i picked the productservice for now. If a customer makes a request it goed true a controller that handles it. With that there is a database that will store all the data.
+In the C3 model we are diving deeper in the application. For example I picked the productservice for now. If a customer makes a request it goes through a controller that handles it. With that there is a database that will store all the data.
  
  <img src="https://i.postimg.cc/XqdDz3j9/C4-model-3-V2-webshop.png" width=750 height=500>
 
 # Learning outcomes
 
-These are all the learning outcomes i need to acomplish by the end of the semester.
+These are all the learning outcomes I need to acomplish by the end of the semester.
 
 ## Outcome 1: You design and build user-friendly, full stack web applications
 
@@ -72,7 +72,7 @@ As you can see on the pictures there are a couple of products shown. These produ
 
 ### 2. Identity service: Login, Register and account information service with 0Auth2
 
-With this service the website is able to login and register users. I implemented this because i want users to eventually make orders with their own accounts. When the user is logged in on the website he is also able to see his own account information. Both these functionalities are shown on the image below.
+With this service the website is able to login and register users. I implemented this because I want users to eventually make orders with their own accounts. When the user is logged in on the website he is also able to see his own account information. Both of these functionalities are shown on the image below.
 
 <table>
   <tr>
@@ -88,7 +88,7 @@ sources:
 
 ### 3. Discovery service: show all the services
 
-When the client makes a request on the webshop the discovery service will make sure that you can find the microservices in your architecture. Its good to understand that this discovery service knows where are the services are. And also its good to understand that all these microservices that want to be discovered will be saying to the discovery service "Let them know im here to be used". I can make sure that the these services can be discoverd by adding the code below to the startup file in the springboot application.
+When the client makes a request on the webshop, the discovery service will make sure that you can find the microservices in your architecture. It's good to understand that this discovery service knows where the services are. And also its good to understand that all these microservices that want to be discovered will be saying to the discovery service "Let them know I'm here to be used". I can make sure that the these services can be discoverd by adding the code below to the startup file in the springboot application.
 
 ```
 @EnableEurekaClient
@@ -106,7 +106,7 @@ sources:
 
 ### 4. API-Gateway: Use only 1 port
 
-A good way to describe an API-Gateway is an entry point for all clients. You can add different services in the YML file to make sure they all run true the gateway. This gateway also makes it very easy for requests because all the services go true 1 port now (mine runs on 9292). You can see this on the image below. If i want to add some kind of security i am able to implement authorization  when a client is making requests for example.
+A good way to describe an API-Gateway is an entry point for all clients. You can add different services in the YML file to make sure they all run through the gateway. This gateway also makes it very easy for requests because all the services go through one port now (mine runs on 9292). You can see this on the image below. If I want to add some kind of security i am able to implement authorization  when a client is making requests for example.
 
 <table>
   <tr>
@@ -122,7 +122,7 @@ sources:
 
 ### 5. Auth0 Poc in Swift
 
-Because i am interested in Swift for the upcoming semester i made a poc to see if i could use Auth0 with a Swift application. The repository for this is mentioned below.
+Because I'm interested in Swift for the upcoming semester I made a POC to see if I could use Auth0 with a Swift application. The repository for this is mentioned below.
 
 [Swift Auth0 Poc repo](https://github.com/Semm6/Swift-Auth0-poc)
 
@@ -138,9 +138,9 @@ Because i am interested in Swift for the upcoming semester i made a poc to see i
 
 ### 1. Unit and integration tests
 
-For this learning outcome i made some unit and integration tests. This will verify that my application is doing what its supposed to do. Also a good benefit of testing is preventing bugs and helps with the quality of the code. Below on the images you can see 2 sort of tests i made: unit and integration tests. Here is some explanation on both of these tests. 
+For this learning outcome I made some unit and integration tests. This will verify that my application is doing what it's supposed to do. Also a good benefit of testing is preventing bugs and helps with the quality of the code. On the imaged below you can see two sort of tests I made: unit and integration tests. Here is some explanation on both of these tests. 
 
-<code>Unit testing:</code> This is a testing technic that tests individual units of code (methods). So for example in my application 1 test only test the method that i can get all the products or that i can create a product. Possibly the developer will be using mockobjects to simulate behaviors of objects. This is helpfull when you are testing because you can use fake objects instead of the real objects from your project.
+<code>Unit testing:</code> This is a testing technic that tests individual units of code (methods). So for example in my application, one test will only test the method that gives me all the products, and another may test the method that can create a product. It's possible for the developer to use mockobjects to simulate behaviors of objects. This is helpfull when you are testing because you can use fake objects instead of the real objects from your project.
 
 <code> Integration testing:</code> With integration testing the entire process in tested (in this case a specific request). This is done with MockMvc. MockMvc allows you to send fake HTTP requests to a controller and test how the controller behaves. A good way to test these request is with fake data so when you want to create a new product for example you already tested the request with fake product data that you made up. This way you can test the entire application process.
 
@@ -158,7 +158,7 @@ sources:
 
 ### 2. Automating tests on push 
 
-After making the tests above i needed to automate this by testing everytime when i push. This makes sure the code is always tested everytime i make a new change. The quality of the code
+After making the tests above I needed to automate this by testing everytime when I push. This makes sure the code is always tested everytime I make a new change. The quality of the code
 
 ```
 name: tests
@@ -207,7 +207,7 @@ A good reason to use an H2 database is because it can be configured to run as in
 
 ### 4. Exception testing
 
-On the images below you can see that i made some exception tests. The reason i made these tests is because i want to be able to see if my exceptions work if anything goes wrong. This exception is custom made and you can call this exception where you want.
+On the images below you can see that I made some exception tests. The reason I made these tests is because I want to be able to see if my exceptions work if anything goes wrong. This exception is custom made and you can call this exception where you want.
 
 <table>
   <tr>
@@ -222,7 +222,7 @@ On the images below you can see that i made some exception tests. The reason i m
  
 ### 5. Code review
 
-My fellow student [@JoviSimons](https://github.com/JoviSimons) did a code review for me. He reviewed the PR for merging the fixed bug i had when pushing the H2 database to GitHub. As you can see on the image below he wrote a comment about it. He is also assigned to this PR and a contributer because he reviewed for me!
+My fellow student [@JoviSimons](https://github.com/JoviSimons) did a code review for me. He reviewed the PR for merging the fixed bug I had when pushing the H2 database to GitHub. As you can see on the image below he wrote a comment about it. He is also assigned to this PR and a contributer because he reviewed for me!
 
 <img src="https://i.postimg.cc/ZK0ngMbr/Code-review.png">
 
@@ -230,10 +230,10 @@ My fellow student [@JoviSimons](https://github.com/JoviSimons) did a code review
 
 ### 1. Docker containers
 
-Below here you can see the docker containers i made for my project. These are all the microservices i am currenlty using for my webshop. Now that i made these containers i can deploy them easily. Further benefits are: 
+Below here you can see the docker containers I made for my project. These are all the microservices I am currenlty using for my webshop. Now that I made these containers i can deploy them easily. Further benefits are: 
 
 - The ability to run multiple processes and apps separately from one another to make better use of my infrastructure.
-- Container tools, including Docker, provide an image-based deployment model. This makes it easy to share an application, or set of services, with all of their     dependencies across multiple environments
+- Container tools, including Docker, provide an image-based deployment model. This makes it easy to share an application, or set of services, with all of their dependencies across multiple environments
 - Docker automates deploying the application (or combined sets of processes that make up an app) inside this container environment.
 
 Here is also a quick step by step tutorial for making a Docker container in springboot (terminal)
@@ -305,7 +305,7 @@ CMD ["/usr/bin/java", "-jar", "/app/productservice-shop-0.0.1-SNAPSHOT.jar"]
 
 ### 1. Contribute to open source
 
-On the images below you can see that i created a README file for an open source project. This is the first time i ever contributed. Before i did this i looked up some information about contributing to projects and a proper way of doing this. I started simple by creating this README and then making a pull request. The next day i got a message that my contribution had bin merged to the master. So from now on i can say that i made a small piece for this project even if it's just a file. This semester and in the future i will be contributing alot more.
+On the images below you can see that I created a README file for an open source project. This is the first time I ever contributed. Before I did this I looked up some information about contributing to projects and a proper way of doing this. I started simple by creating this README and then making a pull request. The next day I got a message that my contribution had bin merged to the master. So from now on I can say that I made a small piece for this project even if it's just a file. This semester and in the future I will be contributing a lot more.
 
 <table>
   <tr>
@@ -322,7 +322,7 @@ On the images below you can see that i created a README file for an open source 
 
 ### 2. Project board
 
-All the features on the left are issues made by me to track my progress and for new contributers to see what they can do if they want to contribiute. In every feature there are a couple of checkboxes to show what needs to be done to complete this feature. On the right image below you can see that i linked an pull request to an issue. This way new contributers and myself are able to see the status of this issue and the issue can be closed when its merged.
+All the features on the left are issues made by me to track my progress and for new contributers to see what they can do if they want to contribiute. In every feature there are a couple of checkboxes to show what needs to be done to complete this feature. On the right image below you can see that I linked an pull request to an issue. This way new contributers and myself are able to see the status of this issue and the issue can be closed when its merged.
 
 To validate that this project board is clear i asked <a href="https://github.com/jellehuibregtse">@JelleHuibregste</a> to review it. He gave me some good feedback on it.
 
@@ -335,7 +335,7 @@ To validate that this project board is clear i asked <a href="https://github.com
 
 ### 3. GitHub flow
 
-In these and the upcoming project i will be using what's called the GitHub flow. This means that i am working with a branche-based workflow. This also works very good when your building a project with a group of developers. Below i made a small step by step guide on how the GitHub flow works.
+In these and the upcoming project I will be using what's called the GitHub flow. This means that i am working with a branch-based workflow. This also works very good when you're building a project with a group of developers. Below I made a small step by step guide on how the GitHub flow works.
 
 1. Create a branche
 2. Make changes
