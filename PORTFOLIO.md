@@ -322,7 +322,7 @@ On the images below you can see that I created a README file for an open source 
 
 ### 2. Project board
 
-All the features on the left are issues made by me to track my progress and for new contributers to see what they can do if they want to contribiute. In every feature there are a couple of checkboxes to show what needs to be done to complete this feature. On the right image below you can see that I linked an pull request to an issue. This way new contributers and myself are able to see the status of this issue and the issue can be closed when its merged.
+All the features on the left are issues made by me to track my progress and for new contributers to see what they can do if they want to contribiute. In every feature there are a couple of checkboxes to show what needs to be done to complete this feature. On the right image below you can see that I linked a pull request to an issue. This way new contributers and myself are able to see the status of this issue and the issue can be closed when its merged.
 
 To validate that this project board is clear i asked <a href="https://github.com/jellehuibregtse">@JelleHuibregste</a> to review it. He gave me some good feedback on it.
 
