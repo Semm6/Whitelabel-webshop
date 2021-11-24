@@ -138,7 +138,7 @@ Because I'm interested in Swift for the upcoming semester I made a POC to see if
 
 ### 1. Unit and integration tests
 
-For this learning outcome I made some unit and integration tests. This will verify that my application is doing what it's supposed to do. Also a good benefit of testing is preventing bugs and helps with the quality of the code. On the imaged below you can see two sort of tests I made: unit and integration tests. Here is some explanation on both of these tests. 
+For this learning outcome I made some unit and integration tests. This will verify that my application is doing what it's supposed to do. Also a good benefit of testing is preventing bugs and helps with the quality of the code. On the images below you can see two sort of tests I made: unit and integration tests. Here is some explanation on both of these tests. 
 
 <code>Unit testing:</code> This is a testing technic that tests individual units of code (methods). So for example in my application, one test will only test the method that gives me all the products, and another may test the method that can create a product. It's possible for the developer to use mockobjects to simulate behaviors of objects. This is helpfull when you are testing because you can use fake objects instead of the real objects from your project.
 
