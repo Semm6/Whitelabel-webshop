@@ -58,9 +58,11 @@ Culture as defined by [Ensie](https://www.ensie.nl/redactie-ensie/cultuur) means
 
 ### Which cultural aspects would you keep in mind when facing cultural differences?
 
-According to [O. Seebregts](https://mijn.bsl.nl/5-omgaan-met-cultuurverschillen/400948) who wrote a book about cultural differences:  
+This podcast from freakonomics sad that there was an incident in Singapore with an American teenager. He was arrested and charged various counts of vandalism. And he was gonna be punished for it. When President Clinton heard about it he sad the following below (the Singaporean government reaction is also mentioned).
 
-> Cultural differences can lead to prejudice, discrimination and racism. The best way to combat this is not to fight them. You can better recognize that prejudice exists and look for the root cause of racist behavior. Then you will investigate whether you can do something about this.
+> GELFAND: Clinton went to negotiate to say, “Hey, this is just totally inappropriate, this punishment.” And the Singaporean government’s reaction was, “Look, this is our culture. If you’re violating the social order, you’re going to be punished.” (The U.S. Is Just Different — So Let’s Stop Pretending We’re Not (Ep. 469), 2021)
+
+So it's good to remember that the rules can be very different in other cultures. And if you are in another country it's also good to look into this.  
 
 ### How can cultures be clustured? 
 
@@ -90,16 +92,29 @@ My culture is to work hard every day. I also communicate a lot with people and t
 
 When im talking to someone I don’t know personally im always quiet and careful at the beginning. The reason for this is to see how he reacts to certain things and how the person is in general. This way I know most of the time how to talk to them. Beside this its always good to be respectful to anyone. 
 
+### High and low context
+Below are some differences between high and low context cultures. For example low context is more focused on individual success while the high context is more team oriented. On the table below you can see more differences.
+
+<img src="https://i.postimg.cc/nVvYKMRh/High-and-low-context.png" width="500px"/>
+
+
+### Certificate developing cross-cultural intelligence
+
+LinkedIn course followed and passed.
+
+<img src="https://i.postimg.cc/pLB6sqsy/Certificate-culture.png" width="500px"/>
+
+
 ## Sources
 
-- https://www.quora.com/What-are-software-engineering-ethics
+- ACM Ethics. (2018, 19 december). Software Engineering Code - ACM Ethics. ACM Ethics - The Official Site of the Association for Computing Machinery’s Committee on Professional Ethics. Geraadpleegd op 16 november 2021, van https://ethics.acm.org/code-of-ethics/software-engineering-code/
 
-- https://online.york.ac.uk/why-ethics-must-be-a-constant-in-software-engineering/
+- Avoiding Cross-Cultural Faux Pas: Understanding the Impact of Cross-Cultural Differences. (2020). Mind Tools. Geraadpleegd op 16 november 2021, van https://www.mindtools.com/pages/article/cross-cultural-mistakes.htm
 
-- https://ethics.acm.org/code-of-ethics/software-engineering-code/ 
+- Nordwall, C. (2021, 30 juni). Why ethics must be a constant in software engineering. University of York. Geraadpleegd op 16 november 2021, van https://online.york.ac.uk/why-ethics-must-be-a-constant-in-software-engineering/
 
-- https://www.ensie.nl/redactie-ensie/cultuur
+- What are software engineering ethics? (2020). Quora. Geraadpleegd op 16 november 2021, van https://www.quora.com/What-are-software-engineering-ethics
 
-- https://mijn.bsl.nl/5-omgaan-met-cultuurverschillen/400948
+- De Vree, J. (z.d.). cultuur. joostdevree. Geraadpleegd op 24 november 2021, van https://www.joostdevree.nl/shtmls/cultuur.shtml
 
-- https://www.mindtools.com/pages/article/cross-cultural-mistakes.htm
+- https://www.joostdevree.nl/shtmls/cultuur.shtml (The U.S. Is Just Different — So Let’s Stop Pretending We’re Not (Ep. 469), 2021)
