@@ -68,7 +68,7 @@ As you can see on the pictures there are a couple of products shown. These produ
  
  sources: 
  
- - [JPA repository](https://www.javatpoint.com/spring-boot-jpa)
+ - [JPA repository](javatpoint.com/spring-boot-jpa)
 
 ### 2. Identity service: Login, Register and account information service with 0Auth2
 
