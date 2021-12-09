@@ -347,3 +347,17 @@ In these and the upcoming project I will be using what's called the GitHub flow.
 On the image below you can see this flow very well.
 
 <img src="https://i.postimg.cc/rwwdRDGc/Github-flow.png" width="485"/>
+
+### 4. Research
+
+For this semester i also did 2 researches with other students. We made these in the [Open Resource Dojo](https://github.com/Open-Research-Dojo). The dojo is a good place to save them because its available for everyone. So when new people join the dojo they can contribiute or add new researches. Remember that these researches are never done because they can always be improved! We made sure that we had a good workflow by using issues, PR's, branches and a project board to monitor the process (Github flow). So when new people want to contribiute they can see what is already made/worked on. We set this up at the beginning and it worked out very good for all 3 of us! Below i will place links to both of the researches we did.
+
+- [Secure webservice 0Auth2](https://github.com/Open-Research-Dojo/secure-webservice-0Auth2)
+
+In this research i researched question 2.
+
+- [Start up your own business](https://github.com/Open-Research-Dojo/start-up-your-business)
+
+In this research i made question 1. This research is about starting up a business. in R10 we made a business canvas together with the teacher. This canvas is about a business we want to start together. You can read the research in the link above but i will leave the canvas here below.
+
+<img src="https://i.postimg.cc/1XH3tdxx/Business-model-canvas-JDS-development.png" width="500px"/>
